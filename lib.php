@@ -239,7 +239,7 @@ class gradingform_p2p_instance extends gradingform_instance {
 	 * @return float|int
 	 */
 	public function get_grade() {
-		// TODO
+		return 0;
 	}
 	
 	/**
