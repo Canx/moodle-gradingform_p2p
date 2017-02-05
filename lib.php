@@ -100,7 +100,7 @@ class gradingform_p2p_controller extends gradingform_controller {
 	 * Returns the plugin renderer
 	 *
 	 * @param moodle_page $page the target page
-	 * @return gradingform_checklist_renderer
+	 * @return gradingform_p2p_renderer
 	 */
 	public function get_renderer(moodle_page $page) {
 		return $page->get_renderer('gradingform_'. $this->get_method_name());
